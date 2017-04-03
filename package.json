@@ -1,0 +1,36 @@
+{
+  "name": "fiber-css",
+  "version": "0.1.0",
+  "description": "An atomic css framework focused on responsive design",
+  "main": "index.js",
+  "scripts": {
+    "css": "gulp css",
+    "css:watch": "gulp",
+    "css:build": "gulp css-build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zcreativelabs/fiber-css.git"
+  },
+  "keywords": [
+    "css",
+    "atomic",
+    "responsive",
+    "typography"
+  ],
+  "author": "Richard Zimerman <richard@zcreativelabs.com> (https://github.com/zimrick)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zcreativelabs/fiber-css/issues"
+  },
+  "homepage": "https://github.com/zcreativelabs/fiber-css#readme",
+  "devDependencies": {
+    "autoprefixer": "6.7.7",
+    "gulp": "3.9.1",
+    "gulp-clean-css": "3.0.4",
+    "gulp-postcss": "6.4.0",
+    "normalize.css": "6.0.0",
+    "postcss-cssnext": "2.10.0"
+  }
+}
