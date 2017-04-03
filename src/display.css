@@ -1,0 +1,27 @@
+
+/*
+ * Visibility
+ *
+ */
+
+.xs-visible,
+.sm-visible,
+.md-visible,
+.lg-visible,
+.xl-visible {
+  display: none;
+}
+
+.hidden  { display: none; }
+
+/*
+ * Display
+ *
+ */
+
+.inline          { display: inline;       }
+.block           { display: block;        }
+.inline-block    { display: inline-block; }
+
+.table           { display: table;        }
+.table-cell      { display: table-cell;   }

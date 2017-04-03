@@ -1,5 +1,6 @@
 
 var gulp = require('gulp')
+var rename = require('gulp-rename')
 var cleanCSS = require('gulp-clean-css')
 var postcss = require('gulp-postcss')
 var partialImport = require('postcss-partial-import')
@@ -14,6 +15,7 @@ gulp.task('css', function() {
 
   return gulp.src('./src/main.css')
             .pipe(postcss(processors))
+            .pipe(rename('fiber.css'))
             .pipe(gulp.dest('./css'))
 })
 
@@ -25,10 +27,10 @@ gulp.task('css-build', function() {
 
   gulp.src('./src/**/*.css')
       .pipe(postcss(processors))
-      .pipe(gulp.dest('./css'))
+      .pipe(gulp.dest('./css/modules'))
 })
 
-gulp.task('production-css', function() {
+gulp.task('css-production', function() {
   var processors = [
     partialImport(),
     cssnext({browsers: ['> 1%']})
@@ -37,6 +39,7 @@ gulp.task('production-css', function() {
   return gulp.src('./src/main.css')
             .pipe(postcss(processors))
             .pipe(cleanCSS({compatibility: 'ie9'}))
+            .pipe(rename('fiber.min.css'))
             .pipe(gulp.dest('./css'))
 })
 

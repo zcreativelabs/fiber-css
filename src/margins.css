@@ -1,0 +1,71 @@
+
+.m0  { margin:        0 }
+.mt0 { margin-top:    0 }
+.mr0 { margin-right:  0 }
+.mb0 { margin-bottom: 0 }
+.ml0 { margin-left:   0 }
+.mx0 { margin-left:   0; margin-right:  0; }
+.my0 { margin-top:    0; margin-bottom: 0; }
+
+.m1  { margin:        calc(1 * var(--base-unit)) }
+.mt1 { margin-top:    calc(1 * var(--base-unit)) }
+.mr1 { margin-right:  calc(1 * var(--base-unit)) }
+.mb1 { margin-bottom: calc(1 * var(--base-unit)) }
+.ml1 { margin-left:   calc(1 * var(--base-unit)) }
+.mx1 { margin-left:   calc(1 * var(--base-unit)); margin-right:  calc(1 * var(--base-unit)); }
+.my1 { margin-top:    calc(1 * var(--base-unit)); margin-bottom: calc(1 * var(--base-unit)); }
+
+.mxn1 { margin-left:   calc(-1 * var(--base-unit)); margin-right:  calc(-1 * var(--base-unit)); }
+
+.m2  { margin:        calc(2 * var(--base-unit)) }
+.mt2 { margin-top:    calc(2 * var(--base-unit)) }
+.mr2 { margin-right:  calc(2 * var(--base-unit)) }
+.mb2 { margin-bottom: calc(2 * var(--base-unit)) }
+.ml2 { margin-left:   calc(2 * var(--base-unit)) }
+.mx2 { margin-left:   calc(2 * var(--base-unit)); margin-right:  calc(2 * var(--base-unit)); }
+.my2 { margin-top:    calc(2 * var(--base-unit)); margin-bottom: calc(2 * var(--base-unit)); }
+
+.mxn2 { margin-left:   calc(-2 * var(--base-unit)); margin-right:  calc(-2 * var(--base-unit)); }
+
+.m3  { margin:        calc(3 * var(--base-unit)) }
+.mt3 { margin-top:    calc(3 * var(--base-unit)) }
+.mr3 { margin-right:  calc(3 * var(--base-unit)) }
+.mb3 { margin-bottom: calc(3 * var(--base-unit)) }
+.ml3 { margin-left:   calc(3 * var(--base-unit)) }
+.mx3 { margin-left:   calc(3 * var(--base-unit)); margin-right:  calc(3 * var(--base-unit)); }
+.my3 { margin-top:    calc(3 * var(--base-unit)); margin-bottom: calc(3 * var(--base-unit)); }
+
+.mxn3 { margin-left:   calc(-3 * var(--base-unit)); margin-right:  calc(-3 * var(--base-unit)); }
+
+
+.m4  { margin:        calc(4 * var(--base-unit)) }
+.mt4 { margin-top:    calc(4 * var(--base-unit)) }
+.mr4 { margin-right:  calc(4 * var(--base-unit)) }
+.mb4 { margin-bottom: calc(4 * var(--base-unit)) }
+.ml4 { margin-left:   calc(4 * var(--base-unit)) }
+.mx4 { margin-left:   calc(4 * var(--base-unit)); margin-right:  calc(4 * var(--base-unit)); }
+.my4 { margin-top:    calc(4 * var(--base-unit)); margin-bottom: calc(4 * var(--base-unit)); }
+
+.mxn4 { margin-left:   calc(-4 * var(--base-unit)); margin-right:  calc(-4 * var(--base-unit)); }
+
+
+.m5  { margin:        calc(5 * var(--base-unit)) }
+.mt5 { margin-top:    calc(5 * var(--base-unit)) }
+.mr5 { margin-right:  calc(5 * var(--base-unit)) }
+.mb5 { margin-bottom: calc(5 * var(--base-unit)) }
+.ml5 { margin-left:   calc(5 * var(--base-unit)) }
+.mx5 { margin-left:   calc(5 * var(--base-unit)); margin-right:  calc(5 * var(--base-unit)); }
+.my5 { margin-top:    calc(5 * var(--base-unit)); margin-bottom: calc(5 * var(--base-unit)); }
+
+.mxn5 { margin-left:   calc(-5 * var(--base-unit)); margin-right:  calc(-5 * var(--base-unit)); }
+
+
+.m6  { margin:        calc(6 * var(--base-unit)) }
+.mt6 { margin-top:    calc(6 * var(--base-unit)) }
+.mr6 { margin-right:  calc(6 * var(--base-unit)) }
+.mb6 { margin-bottom: calc(6 * var(--base-unit)) }
+.ml6 { margin-left:   calc(6 * var(--base-unit)) }
+.mx6 { margin-left:   calc(6 * var(--base-unit)); margin-right:  calc(6 * var(--base-unit)); }
+.my6 { margin-top:    calc(6 * var(--base-unit)); margin-bottom: calc(6 * var(--base-unit)); }
+
+.mxn6 { margin-left:   calc(-6 * var(--base-unit)); margin-right:  calc(-6 * var(--base-unit)); }

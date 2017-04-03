@@ -1,0 +1,42 @@
+
+/*Wrapping*/
+.no-wrap { white-space: nowrap; }
+
+/*Vertical align*/
+.align-baseline  { vertical-align: baseline; }
+.align-top       { vertical-align: top;      }
+.align-middle    { vertical-align: middle;   }
+.align-bottom    { vertical-align: bottom;   }
+
+/*Oveflow*/
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+.overflow-auto   { overflow: auto;   }
+
+/*Float*/
+.left  { float: left;  }
+.right { float: right; }
+
+/*Transforms*/
+.translateY-n50 { transform: translateY(-50%); }
+.translateX-n50 { transform: translateX(-50%); }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after { clear: both; }
+
+/*z index*/
+.z-index-0    { z-index: 0;       }
+.z-index-1    { z-index: 1;       }
+.z-index-2    { z-index: 2;       }
+.z-index-3    { z-index: 3;       }
+.z-index-4    { z-index: 4;       }
+.z-index-5    { z-index: 5;       }
+.z-index-10   { z-index: 10;      }
+.z-index-20   { z-index: 20;      }
+.z-index-100  { z-index: 100;     }
+.z-index-max  { z-index: 999999;  }

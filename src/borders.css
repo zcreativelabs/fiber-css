@@ -1,0 +1,52 @@
+
+.border-none   { border: 0; }
+.border-all    { border: 0.125rem solid currentcolor        }
+.border-top    { border-top: 0.125rem solid currentcolor    }
+.border-bottom { border-bottom: 0.125rem solid currentcolor }
+.border-left   { border-left: 0.125rem solid currentcolor   }
+.border-right  { border-right: 0.125rem solid currentcolor  }
+
+.border-x      {
+  border-left: 0.125rem solid currentcolor;
+  border-right: 0.125rem solid currentcolor;
+}
+.border-y {
+  border-top: 0.125rem solid currentcolor;
+  border-bottom: 0.125rem solid currentcolor;
+}
+
+.border-transparent { border-color: transparent            }
+.border-default     { border-color: var(--text-color-base) }
+.border-current     { border-color: currentcolor           }
+.border-inherit     { border-color: inherit                }
+
+.border-primary     { border-color: var(--color-primary)   }
+.border-secondary   { border-color: var(--color-secondary) }
+
+.border-red         { border-color: var(--color-red-500)         }
+.border-pink        { border-color: var(--color-pink-500)        }
+.border-purple      { border-color: var(--color-purple-500)      }
+.border-indigo      { border-color: var(--color-indigo-500)      }
+.border-blue        { border-color: var(--color-blue-500)        }
+.border-light-blue  { border-color: var(--color-light-blue-500)  }
+.border-cyan        { border-color: var(--color-cyan-500)        }
+.border-teal        { border-color: var(--color-teal-500)        }
+.border-green       { border-color: var(--color-green-500)       }
+.border-light-green { border-color: var(--color-light-green-500) }
+.border-lime        { border-color: var(--color-lime-500)        }
+.border-yellow      { border-color: var(--color-yellow-500)      }
+.border-amber       { border-color: var(--color-amber-500)       }
+.border-orange      { border-color: var(--color-orange-500)      }
+.border-deep-orange { border-color: var(--color-deep-orange-500) }
+.border-brown       { border-color: var(--color-brown-500)       }
+
+.border-white       { border-color: var(--color-white) }
+
+.border-grey-100  { border-color: var(--color-grey-100) }
+.border-grey-200  { border-color: var(--color-grey-200) }
+.border-grey-300  { border-color: var(--color-grey-300) }
+.border-grey-400  { border-color: var(--color-grey-400) }
+.border-grey-500  { border-color: var(--color-grey-500) }
+.border-grey-600  { border-color: var(--color-grey-600) }
+.border-grey-700  { border-color: var(--color-grey-700) }
+.border-grey-800  { border-color: var(--color-grey-800) }

@@ -7,6 +7,7 @@
     "css": "gulp css",
     "css:watch": "gulp",
     "css:build": "gulp css-build",
+    "css:production": "gulp css-production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,7 +31,9 @@
     "gulp": "3.9.1",
     "gulp-clean-css": "3.0.4",
     "gulp-postcss": "6.4.0",
+    "gulp-rename": "1.2.2",
     "normalize.css": "6.0.0",
-    "postcss-cssnext": "2.10.0"
+    "postcss-cssnext": "2.10.0",
+    "postcss-partial-import": "3.1.1"
   }
 }

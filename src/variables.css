@@ -1,0 +1,109 @@
+
+:root {
+  --sans-serif:         "Roboto", sans-serif;
+  /*
+   * Considering a base of 16px, --one refers to 1 unit, as 1px
+   *
+   */
+  --one:                  0.0625rem;
+  --one-relative:         0.0625em;
+  --base-font-size:       1rem;
+  --base-unit:            var(--base-font-size);
+  --base-space:           var(--base-font-size);
+  --base-line-height:     1.5;
+  --small-line-height:    1.2;
+
+  --font-size-0:          calc(13 * var(--one));
+  --font-size-1:          calc(16 * var(--one));
+  --font-size-2:          calc(20 * var(--one));
+  --font-size-3:          calc(24 * var(--one));
+  --font-size-4:          calc(32 * var(--one));
+  --font-size-5:          calc(44 * var(--one));
+  --font-size-6:          calc(56 * var(--one));
+
+  /*
+   * Uses google material design colors: https://material.io/guidelines/style/color.html
+   *
+   */
+  --color-red-500:            #F44336;
+  --color-red-700:            #D32F2F;
+
+  --color-pink-500:           #E91E63;
+  --color-pink-700:           #C2185B;
+
+  --color-purple-500:         #9C27B0;
+  --color-purple-700:         #7B1FA2;
+
+  --color-indigo-500:         #3F51B5;
+  --color-indigo-700:         #303F9F;
+
+  --color-blue-500:           #2196F3;
+  --color-blue-700:           #1976D2;
+
+  --color-light-blue-500:     #03A9F4;
+  --color-light-blue-700:     #0288D1;
+
+  --color-cyan-500:           #00BCD4;
+  --color-cyan-700:           #0097A7;
+
+  --color-teal-500:           #009688;
+  --color-teal-700:           #00796B;
+
+  --color-green-500:          #4CAF50;
+  --color-green-700:          #388E3C;
+
+  --color-light-green-500:    #8BC34A;
+  --color-light-green-700:    #689F38;
+
+  --color-lime-500:           #CDDC39;
+  --color-lime-700:           #AFB42B;
+
+  --color-yellow-500:         #FFEB3B;
+  --color-yellow-700:         #FBC02D;
+
+  --color-amber-500:          #FFC107;
+  --color-amber-700:          #FFA000;
+
+  --color-orange-500:         #FF9800;
+  --color-orange-700:         #F57C00;
+
+  --color-deep-orange-500:    #FF5722;
+  --color-deep-orange-700:    #E64A19;
+
+  --color-brown-500:          #795548;
+  --color-brown-700:          #5D4037;
+
+  --color-grey-100:           #F5F5F5;
+  --color-grey-200:           #EEEEEE;
+  --color-grey-300:           #E0E0E0;
+  --color-grey-400:           #BDBDBD;
+  --color-grey-500:           #9E9E9E;
+  --color-grey-600:           #757575;
+  --color-grey-700:           #616161;
+  --color-grey-800:           #424242;
+  --color-grey-900:           #212121;
+
+  --color-white:              #FFFFFF;
+  --color-black:              #000000;
+
+  --text-color-base:          var(--color-grey-900);
+
+  --color-primary:            var(--color-pink-500);
+  --color-primary-contrast:   var(--color-white);
+
+  --color-secondary:          var(--color-grey-200);
+  --color-secondary-contrast: var(--text-color-base);
+
+  --text-select-bg:           var(--color-primary);
+  --text-select-color:        var(--color-white);
+
+  --shadow-light:             0.08;
+  --shadow-medium:            0.12;
+  --shadow-dark:              0.16;
+}
+
+@custom-media --xs-viewport (min-width: 30em);
+@custom-media --sm-viewport (min-width: 48em);
+@custom-media --md-viewport (min-width: 62em);
+@custom-media --lg-viewport (min-width: 75em);
+@custom-media --xl-viewport (min-width: 91em);
