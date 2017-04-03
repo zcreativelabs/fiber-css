@@ -1,0 +1,166 @@
+
+@media (min-width: 30em) {
+  .xs-text-0   { font-size: 0.8125rem; }
+  .xs-text-1   { font-size: 1rem; }
+  .xs-text-2   { font-size: 1.25rem; }
+  .xs-text-3   { font-size: 1.5rem; }
+  .xs-text-4   { font-size: 2rem; }
+  .xs-text-5   { font-size: 2.75rem; }
+  .xs-text-6   { font-size: 3.5rem; }
+
+  .xs-lh-1     { line-height: 1; }
+  .xs-lh-base  { line-height: 1.5;  }
+  .xs-lh-small { line-height: 1.2; }
+
+  .xs-strong   { font-weight: 700;   }
+  .xs-regular  { font-weight: 400;   }
+  .xs-light    { font-weight: 300;   }
+  .xs-italic   { font-style: italic; }
+
+  .xs-uppercase    { text-transform: uppercase;  }
+  .xs-lowercase    { text-transform: lowercase;  }
+  .xs-capitalized  { text-transform: capitalize; }
+
+  .xs-underline    { text-decoration: underline;    }
+  .xs-line-through { text-decoration: line-through; }
+
+  .xs-text-left,
+  .xs-align-left   { text-align: left;   }
+  .xs-text-right,
+  .xs-align-right  { text-align: right;  }
+  .xs-text-center,
+  .xs-align-center { text-align: center; }
+}
+
+@media (min-width: 48em) {
+  .sm-text-0   { font-size: 0.8125rem; }
+  .sm-text-1   { font-size: 1rem; }
+  .sm-text-2   { font-size: 1.25rem; }
+  .sm-text-3   { font-size: 1.5rem; }
+  .sm-text-4   { font-size: 2rem; }
+  .sm-text-5   { font-size: 2.75rem; }
+  .sm-text-6   { font-size: 3.5rem; }
+
+  .sm-lh-1     { line-height: 1; }
+  .sm-lh-base  { line-height: 1.5;  }
+  .sm-lh-small { line-height: 1.2; }
+
+  .sm-strong   { font-weight: 700;   }
+  .sm-regular  { font-weight: 400;   }
+  .sm-light    { font-weight: 300;   }
+  .sm-italic   { font-style: italic; }
+
+  .sm-uppercase    { text-transform: uppercase;  }
+  .sm-lowercase    { text-transform: lowercase;  }
+  .sm-capitalized  { text-transform: capitalize; }
+
+  .sm-underline    { text-decoration: underline;    }
+  .sm-line-through { text-decoration: line-through; }
+
+  .sm-text-left,
+  .sm-align-left   { text-align: left;   }
+  .sm-text-right,
+  .sm-align-right  { text-align: right;  }
+  .sm-text-center,
+  .sm-align-center { text-align: center; }
+
+}
+
+@media (min-width: 62em) {
+  .md-text-0   { font-size: 0.8125rem; }
+  .md-text-1   { font-size: 1rem; }
+  .md-text-2   { font-size: 1.25rem; }
+  .md-text-3   { font-size: 1.5rem; }
+  .md-text-4   { font-size: 2rem; }
+  .md-text-5   { font-size: 2.75rem; }
+  .md-text-6   { font-size: 3.5rem; }
+
+  .md-lh-1     { line-height: 1; }
+  .md-lh-base  { line-height: 1.5;  }
+  .md-lh-small { line-height: 1.2; }
+
+  .md-strong   { font-weight: 700;   }
+  .md-regular  { font-weight: 400;   }
+  .md-light    { font-weight: 300;   }
+  .md-italic   { font-style: italic; }
+
+  .md-uppercase    { text-transform: uppercase;  }
+  .md-lowercase    { text-transform: lowercase;  }
+  .md-capitalized  { text-transform: capitalize; }
+
+  .md-underline    { text-decoration: underline;    }
+  .md-line-through { text-decoration: line-through; }
+
+  .md-text-left,
+  .md-align-left   { text-align: left;   }
+  .md-text-right,
+  .md-align-right  { text-align: right;  }
+  .md-text-center,
+  .md-align-center { text-align: center; }
+}
+
+@media (min-width: 75em) {
+  .lg-text-0   { font-size: 0.8125rem; }
+  .lg-text-1   { font-size: 1rem; }
+  .lg-text-2   { font-size: 1.25rem; }
+  .lg-text-3   { font-size: 1.5rem; }
+  .lg-text-4   { font-size: 2rem; }
+  .lg-text-5   { font-size: 2.75rem; }
+  .lg-text-6   { font-size: 3.5rem; }
+
+  .lg-lh-1     { line-height: 1; }
+  .lg-lh-base  { line-height: 1.5;  }
+  .lg-lh-small { line-height: 1.2; }
+
+  .lg-strong   { font-weight: 700;   }
+  .lg-regular  { font-weight: 400;   }
+  .lg-light    { font-weight: 300;   }
+  .lg-italic   { font-style: italic; }
+
+  .lg-uppercase    { text-transform: uppercase;  }
+  .lg-lowercase    { text-transform: lowercase;  }
+  .lg-capitalized  { text-transform: capitalize; }
+
+  .lg-underline    { text-decoration: underline;    }
+  .lg-line-through { text-decoration: line-through; }
+
+  .lg-text-left,
+  .lg-align-left   { text-align: left;   }
+  .lg-text-right,
+  .lg-align-right  { text-align: right;  }
+  .lg-text-center,
+  .lg-align-center { text-align: center; }
+}
+
+@media (min-width: 91em) {
+  .xl-text-0   { font-size: 0.8125rem; }
+  .xl-text-1   { font-size: 1rem; }
+  .xl-text-2   { font-size: 1.25rem; }
+  .xl-text-3   { font-size: 1.5rem; }
+  .xl-text-4   { font-size: 2rem; }
+  .xl-text-5   { font-size: 2.75rem; }
+  .xl-text-6   { font-size: 3.5rem; }
+
+  .xl-lh-1     { line-height: 1; }
+  .xl-lh-base  { line-height: 1.5;  }
+  .xl-lh-small { line-height: 1.2; }
+
+  .xl-strong   { font-weight: 700;   }
+  .xl-regular  { font-weight: 400;   }
+  .xl-light    { font-weight: 300;   }
+  .xl-italic   { font-style: italic; }
+
+  .xl-uppercase    { text-transform: uppercase;  }
+  .xl-lowercase    { text-transform: lowercase;  }
+  .xl-capitalized  { text-transform: capitalize; }
+
+  .xl-underline    { text-decoration: underline;    }
+  .xl-line-through { text-decoration: line-through; }
+
+  .xl-text-left,
+  .xl-align-left   { text-align: left;   }
+  .xl-text-right,
+  .xl-align-right  { text-align: right;  }
+  .xl-text-center,
+  .xl-align-center { text-align: center; }
+}

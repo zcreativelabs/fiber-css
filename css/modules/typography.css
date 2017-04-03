@@ -1,0 +1,95 @@
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+p:first-child { margin-top: 0;    }
+
+p:last-child  { margin-bottom: 0; }
+
+/*
+ * Font sizes
+ *
+ */
+
+small,
+.text-0   { font-size: 0.8125rem; }
+
+.text-1   { font-size: 1rem; }
+
+.text-2   { font-size: 1.25rem; }
+
+.text-3   { font-size: 1.5rem; }
+
+.text-4   { font-size: 2rem; }
+
+.text-5   { font-size: 2.75rem; }
+
+.text-6   { font-size: 3.5rem; }
+
+/*
+ * Line height
+ *
+ * .lh-1 vs. lh-self
+ */
+
+.lh-1       { line-height: 1; }
+
+.lh-base    { line-height: 1.5;  }
+
+.lh-small   { line-height: 1.2; }
+
+/*
+ * Text align
+ *
+ */
+
+.text-left,
+.align-left   { text-align: left;   }
+
+.text-right,
+.align-right  { text-align: right;  }
+
+.text-center,
+.align-center { text-align: center; }
+
+/*
+ * Text weight
+ *
+ */
+
+b,
+strong,
+.strong   { font-weight: 700; }
+
+.regular  { font-weight: 400; }
+
+.light    { font-weight: 300; }
+
+.italic { font-style: italic; }
+
+/*
+ * Text transform
+ *
+ */
+
+.uppercase   { text-transform: uppercase;  }
+
+.lowercase   { text-transform: lowercase;  }
+
+.capitalized { text-transform: capitalize; }
+
+/*
+ * Text decoration
+ *
+ */
+
+.underline    { text-decoration: underline;    }
+
+.line-through { text-decoration: line-through; }

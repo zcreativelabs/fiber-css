@@ -1,0 +1,63 @@
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212121;
+}
+
+::-moz-selection {
+  background: undefined;
+  color: #FFFFFF;
+}
+
+::selection {
+  background: undefined;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background: undefined;
+  color: #FFFFFF;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border-top: 0;
+  border-bottom: 0.125rem solid #EEEEEE;
+}
+
+svg {
+  display: inline-block;
+  height: auto;
+  vertical-align: middle;
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+[tabindex="-1"]:focus {
+  outline: none !important;
+}

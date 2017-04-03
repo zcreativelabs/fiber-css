@@ -1,0 +1,122 @@
+
+/*
+ * background colors
+ *
+ */
+
+.bg-primary     { background: #E91E63;   color: #FFFFFF;   }
+
+.bg-secondary   { background: #EEEEEE; color: undefined; }
+
+.bg-white       { background: #FFFFFF    }
+
+.bg-red         { background: #F44336         }
+
+.bg-pink        { background: #E91E63        }
+
+.bg-purple      { background: #9C27B0      }
+
+.bg-indigo      { background: #3F51B5      }
+
+.bg-blue        { background: #2196F3        }
+
+.bg-light-blue  { background: #03A9F4  }
+
+.bg-cyan        { background: #00BCD4        }
+
+.bg-teal        { background: #009688        }
+
+.bg-green       { background: #4CAF50       }
+
+.bg-light-green { background: #8BC34A }
+
+.bg-lime        { background: #CDDC39        }
+
+.bg-yellow      { background: #FFEB3B      }
+
+.bg-amber       { background: #FFC107       }
+
+.bg-orange      { background: #FF9800      }
+
+.bg-deep-orange { background: #FF5722 }
+
+.bg-brown       { background: #795548       }
+
+.bg-grey-100  { background: #F5F5F5 }
+
+.bg-grey-200  { background: #EEEEEE }
+
+.bg-grey-300  { background: #E0E0E0 }
+
+.bg-grey-400  { background: #BDBDBD }
+
+.bg-grey-500  { background: #9E9E9E }
+
+.bg-grey-600  { background: #757575 }
+
+.bg-grey-700  { background: #616161 }
+
+.bg-grey-800  { background: #424242 }
+
+/*
+ * text colors
+ *
+ */
+
+.color-default   { color: #212121 }
+
+.color-inherit   { color: inherit                }
+
+.color-primary   { color: #E91E63   }
+
+.color-secondary { color: #EEEEEE }
+
+.color-red         { color: #F44336         }
+
+.color-pink        { color: #E91E63        }
+
+.color-purple      { color: #9C27B0      }
+
+.color-indigo      { color: #3F51B5      }
+
+.color-blue        { color: #2196F3        }
+
+.color-light-blue  { color: #03A9F4  }
+
+.color-cyan        { color: #00BCD4        }
+
+.color-teal        { color: #009688        }
+
+.color-green       { color: #4CAF50       }
+
+.color-light-green { color: #8BC34A }
+
+.color-lime        { color: #CDDC39        }
+
+.color-yellow      { color: #FFEB3B      }
+
+.color-amber       { color: #FFC107       }
+
+.color-orange      { color: #FF9800      }
+
+.color-deep-orange { color: #FF5722 }
+
+.color-brown       { color: #795548       }
+
+.color-white       { color: #FFFFFF }
+
+.color-grey-100  { color: #F5F5F5 }
+
+.color-grey-200  { color: #EEEEEE }
+
+.color-grey-300  { color: #E0E0E0 }
+
+.color-grey-400  { color: #BDBDBD }
+
+.color-grey-500  { color: #9E9E9E }
+
+.color-grey-600  { color: #757575 }
+
+.color-grey-700  { color: #616161 }
+
+.color-grey-800  { color: #424242 }

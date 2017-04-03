@@ -7,10 +7,23 @@ var partialImport = require('postcss-partial-import')
 var cssnext = require('postcss-cssnext')
 var autoprefixer = require('autoprefixer')
 
+const styleVariables = require('./src/styleVariables')
+const mediaQueries = require('./src/mediaQueries')
+
 gulp.task('css', function() {
   var processors = [
     partialImport(),
-    cssnext({browsers: ['> 1%']})
+    cssnext({
+      browsers: ['> 1%'],
+      features: {
+        customProperties: {
+          variables: styleVariables,
+        },
+        customMedia: {
+          extensions: mediaQueries,
+        },
+      },
+    })
   ]
 
   return gulp.src('./src/main.css')
@@ -22,7 +35,17 @@ gulp.task('css', function() {
 gulp.task('css-build', function() {
   var processors = [
     partialImport(),
-    cssnext({browsers: ['> 1%']})
+    cssnext({
+      browsers: ['> 1%'],
+      features: {
+        customProperties: {
+          variables: styleVariables,
+        },
+        customMedia: {
+          extensions: mediaQueries,
+        },
+      },
+    }),
   ]
 
   gulp.src('./src/**/*.css')
@@ -33,7 +56,17 @@ gulp.task('css-build', function() {
 gulp.task('css-production', function() {
   var processors = [
     partialImport(),
-    cssnext({browsers: ['> 1%']})
+    cssnext({
+      browsers: ['> 1%'],
+      features: {
+        customProperties: {
+          variables: styleVariables,
+        },
+        customMedia: {
+          extensions: mediaQueries,
+        },
+      },
+    })
   ]
 
   return gulp.src('./src/main.css')

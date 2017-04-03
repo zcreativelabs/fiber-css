@@ -1,0 +1,26 @@
+
+/*
+ * Links
+ *
+ */
+a {
+  color: #E91E63;
+  text-decoration: none;
+  outline: none;
+}
+a:hover,
+a:focus {
+  border-bottom: 0.125rem solid currentcolor;
+}
+.link--focus-highlight:focus {
+  box-shadow: inset 0 0 0 3em rgba(0, 0, 0, .08),
+              0 0 0 4px rgba(0, 0, 0, .08);
+}
+.link--underlined {
+  border-bottom: 0.125rem solid currentcolor;
+}
+.link--no-underline,
+.link--no-underline:hover,
+.link--no-underline:focus {
+  border-bottom: none;
+}

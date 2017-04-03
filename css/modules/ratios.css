@@ -1,0 +1,9 @@
+
+/*
+ * Ratios
+ *
+ */
+.ratio-16-9 { height: 0; padding-bottom: 56.25%;     }
+.ratio-3-2  { height: 0; padding-bottom: 66.666666%; }
+.ratio-4-3  { height: 0; padding-bottom: 75%;        }
+.ratio-1-1  { height: 0; padding-bottom: 100%;       }

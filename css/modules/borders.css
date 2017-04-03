@@ -1,0 +1,46 @@
+
+.border-none   { border: 0; }
+.border-all    { border: 0.125rem solid currentcolor        }
+.border-top    { border-top: 0.125rem solid currentcolor    }
+.border-bottom { border-bottom: 0.125rem solid currentcolor }
+.border-left   { border-left: 0.125rem solid currentcolor   }
+.border-right  { border-right: 0.125rem solid currentcolor  }
+.border-x      {
+  border-left: 0.125rem solid currentcolor;
+  border-right: 0.125rem solid currentcolor;
+}
+.border-y {
+  border-top: 0.125rem solid currentcolor;
+  border-bottom: 0.125rem solid currentcolor;
+}
+.border-transparent { border-color: transparent            }
+.border-default     { border-color: #212121 }
+.border-current     { border-color: currentcolor           }
+.border-inherit     { border-color: inherit                }
+.border-primary     { border-color: #E91E63   }
+.border-secondary   { border-color: #EEEEEE }
+.border-red         { border-color: #F44336         }
+.border-pink        { border-color: #E91E63        }
+.border-purple      { border-color: #9C27B0      }
+.border-indigo      { border-color: #3F51B5      }
+.border-blue        { border-color: #2196F3        }
+.border-light-blue  { border-color: #03A9F4  }
+.border-cyan        { border-color: #00BCD4        }
+.border-teal        { border-color: #009688        }
+.border-green       { border-color: #4CAF50       }
+.border-light-green { border-color: #8BC34A }
+.border-lime        { border-color: #CDDC39        }
+.border-yellow      { border-color: #FFEB3B      }
+.border-amber       { border-color: #FFC107       }
+.border-orange      { border-color: #FF9800      }
+.border-deep-orange { border-color: #FF5722 }
+.border-brown       { border-color: #795548       }
+.border-white       { border-color: #FFFFFF }
+.border-grey-100  { border-color: #F5F5F5 }
+.border-grey-200  { border-color: #EEEEEE }
+.border-grey-300  { border-color: #E0E0E0 }
+.border-grey-400  { border-color: #BDBDBD }
+.border-grey-500  { border-color: #9E9E9E }
+.border-grey-600  { border-color: #757575 }
+.border-grey-700  { border-color: #616161 }
+.border-grey-800  { border-color: #424242 }
