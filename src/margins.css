@@ -7,6 +7,14 @@
 .mx0 { margin-left:   0; margin-right:  0; }
 .my0 { margin-top:    0; margin-bottom: 0; }
 
+.m05  { margin:        calc(.5 * var(--base-unit)); }
+.mt05 { margin-top:    calc(.5 * var(--base-unit)); }
+.mr05 { margin-right:  calc(.5 * var(--base-unit)); }
+.mb05 { margin-bottom: calc(.5 * var(--base-unit)); }
+.ml05 { margin-left:   calc(.5 * var(--base-unit)); }
+.mx05 { margin-left:   calc(.5 * var(--base-unit)); margin-right:  calc(.5 * var(--base-unit)); }
+.my05 { margin-top:    calc(.5 * var(--base-unit)); margin-bottom: calc(.5 * var(--base-unit)); }
+
 .m1  { margin:        calc(1 * var(--base-unit)) }
 .mt1 { margin-top:    calc(1 * var(--base-unit)) }
 .mr1 { margin-right:  calc(1 * var(--base-unit)) }

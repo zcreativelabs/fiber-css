@@ -1647,6 +1647,20 @@ strong,
 
 .my0 { margin-top:    0; margin-bottom: 0; }
 
+.m05  { margin: 0.5rem; }
+
+.mt05 { margin-top: 0.5rem; }
+
+.mr05 { margin-right: 0.5rem; }
+
+.mb05 { margin-bottom: 0.5rem; }
+
+.ml05 { margin-left: 0.5rem; }
+
+.mx05 { margin-left: 0.5rem; margin-right: 0.5rem; }
+
+.my05 { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+
 .m1  { margin: 1rem }
 
 .mt1 { margin-top: 1rem }
@@ -1750,6 +1764,12 @@ strong,
   .xs-mb0 { margin-bottom: 0rem }
   .xs-ml0 { margin-left: 0rem }
 
+  .xs-m05  { margin: 0.5rem; }
+  .xs-mt05 { margin-top: 0.5rem; }
+  .xs-mr05 { margin-right: 0.5rem; }
+  .xs-mb05 { margin-bottom: 0.5rem; }
+  .xs-ml05 { margin-left: 0.5rem; }
+
   .xs-m1  { margin: 1rem }
   .xs-mt1 { margin-top: 1rem }
   .xs-mr1 { margin-right: 1rem }
@@ -1816,6 +1836,12 @@ strong,
   .sm-mr0 { margin-right: 0rem }
   .sm-mb0 { margin-bottom: 0rem }
   .sm-ml0 { margin-left: 0rem }
+
+  .sm-m05  { margin: 0.5rem; }
+  .sm-mt05 { margin-top: 0.5rem; }
+  .sm-mr05 { margin-right: 0.5rem; }
+  .sm-mb05 { margin-bottom: 0.5rem; }
+  .sm-ml05 { margin-left: 0.5rem; }
 
   .sm-m1  { margin: 1rem }
   .sm-mt1 { margin-top: 1rem }
@@ -1884,6 +1910,12 @@ strong,
   .md-mb0 { margin-bottom: 0rem }
   .md-ml0 { margin-left: 0rem }
 
+  .md-m05  { margin: 0.5rem; }
+  .md-mt05 { margin-top: 0.5rem; }
+  .md-mr05 { margin-right: 0.5rem; }
+  .md-mb05 { margin-bottom: 0.5rem; }
+  .md-ml05 { margin-left: 0.5rem; }
+
   .md-m1  { margin: 1rem }
   .md-mt1 { margin-top: 1rem }
   .md-mr1 { margin-right: 1rem }
@@ -1951,6 +1983,12 @@ strong,
   .lg-mb0 { margin-bottom: 0rem }
   .lg-ml0 { margin-left: 0rem }
 
+  .lg-m05  { margin: 0.5rem; }
+  .lg-mt05 { margin-top: 0.5rem; }
+  .lg-mr05 { margin-right: 0.5rem; }
+  .lg-mb05 { margin-bottom: 0.5rem; }
+  .lg-ml05 { margin-left: 0.5rem; }
+
   .lg-m1  { margin: 1rem }
   .lg-mt1 { margin-top: 1rem }
   .lg-mr1 { margin-right: 1rem }
@@ -2017,6 +2055,12 @@ strong,
   .xl-mr0 { margin-right: 0rem }
   .xl-mb0 { margin-bottom: 0rem }
   .xl-ml0 { margin-left: 0rem }
+
+  .xl-m05  { margin: 0.5rem; }
+  .xl-mt05 { margin-top: 0.5rem; }
+  .xl-mr05 { margin-right: 0.5rem; }
+  .xl-mb05 { margin-bottom: 0.5rem; }
+  .xl-ml05 { margin-left: 0.5rem; }
 
   .xl-m1  { margin: 1rem }
   .xl-mt1 { margin-top: 1rem }
