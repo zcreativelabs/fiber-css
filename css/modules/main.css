@@ -2743,6 +2743,22 @@ strong,
 
 .color-grey-800  { color: #424242 }
 
+.shadow-1 {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .16);
+}
+
+.shadow-2 {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .16);
+}
+
+.shadow-3 {
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, .16);
+}
+
+.shadow-4 {
+  box-shadow: 0 3px 24px 0 rgba(0, 0, 0, .16);
+}
+
 /*
  * Position
  *
