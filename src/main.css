@@ -10,6 +10,7 @@
 
 @import 'grid.css';
 @import 'grid-flex.css';
+@import 'grid-flex-responsive.css';
 
 @import 'display.css';
 @import 'display-responsive.css';
