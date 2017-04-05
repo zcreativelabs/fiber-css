@@ -77,5 +77,5 @@ gulp.task('css-production', function() {
 })
 
 gulp.task('default', function() {
-  gulp.watch('./styles/**/*.css', ['css'])
+  gulp.watch('./src/**/*.css', ['css'])
 })
