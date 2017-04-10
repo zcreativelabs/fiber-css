@@ -1,16 +1,16 @@
 
 .shadow-1 {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, var(--shadow-dark));
+  box-shadow: 0 calc(2 * var(--one)) calc(4 * var(--one)) 0 rgba(0, 0, 0, var(--shadow-dark));
 }
 
 .shadow-2 {
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, var(--shadow-dark));
+  box-shadow: 0 calc(2 * var(--one)) calc(8 * var(--one)) 0 rgba(0, 0, 0, var(--shadow-dark));
 }
 
 .shadow-3 {
-  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, var(--shadow-dark));
+  box-shadow: 0 calc(2 * var(--one)) calc(16 * var(--one)) 0 rgba(0, 0, 0, var(--shadow-dark));
 }
 
 .shadow-4 {
-  box-shadow: 0 3px 24px 0 rgba(0, 0, 0, var(--shadow-dark));
+  box-shadow: 0 calc(3 * var(--one)) calc(24 * var(--one)) 0 rgba(0, 0, 0, var(--shadow-dark));
 }
