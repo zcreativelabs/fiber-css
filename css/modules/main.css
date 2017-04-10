@@ -3106,17 +3106,19 @@ strong,
 }
 
 /*
- * Dimensions
+ * Heights
  *
  */
 
-.height-25  { height: 25%;  }
+.height-auto  { height: auto;  }
 
-.height-50  { height: 50%;  }
+.height-25    { height: 25%;   }
 
-.height-75  { height: 75%;  }
+.height-50    { height: 50%;   }
 
-.height-100 { height: 100%; }
+.height-75    { height: 75%;   }
+
+.height-100   { height: 100%;  }
 
 .height-25vh  { height: 25vh;  }
 
@@ -3127,10 +3129,12 @@ strong,
 .height-100vh { height: 100vh; }
 
 @media (min-width: 30em) {
-  .xs-height-25  { height: 25%;  }
-  .xs-height-50  { height: 50%;  }
-  .xs-height-75  { height: 75%;  }
-  .xs-height-100 { height: 100%; }
+  .xs-height-auto  { height: auto;  }
+
+  .xs-height-25    { height: 25%;   }
+  .xs-height-50    { height: 50%;   }
+  .xs-height-75    { height: 75%;   }
+  .xs-height-100   { height: 100%;  }
 
   .xs-height-25vh  { height: 25vh;  }
   .xs-height-50vh  { height: 50vh;  }
@@ -3139,10 +3143,12 @@ strong,
 }
 
 @media (min-width: 48em) {
-  .sm-height-25  { height: 25%;  }
-  .sm-height-50  { height: 50%;  }
-  .sm-height-75  { height: 75%;  }
-  .sm-height-100 { height: 100%; }
+  .sm-height-auto  { height: auto;  }
+
+  .sm-height-25    { height: 25%;   }
+  .sm-height-50    { height: 50%;   }
+  .sm-height-75    { height: 75%;   }
+  .sm-height-100   { height: 100%;  }
 
   .sm-height-25vh  { height: 25vh;  }
   .sm-height-50vh  { height: 50vh;  }
@@ -3151,10 +3157,12 @@ strong,
 }
 
 @media (min-width: 62em) {
-  .md-height-25  { height: 25%;  }
-  .md-height-50  { height: 50%;  }
-  .md-height-75  { height: 75%;  }
-  .md-height-100 { height: 100%; }
+  .md-height-auto  { height: auto;  }
+
+  .md-height-25    { height: 25%;   }
+  .md-height-50    { height: 50%;   }
+  .md-height-75    { height: 75%;   }
+  .md-height-100   { height: 100%;  }
 
   .md-height-25vh  { height: 25vh;  }
   .md-height-50vh  { height: 50vh;  }
@@ -3163,10 +3171,12 @@ strong,
 }
 
 @media (min-width: 75em) {
-  .lg-height-25  { height: 25%;  }
-  .lg-height-50  { height: 50%;  }
-  .lg-height-75  { height: 75%;  }
-  .lg-height-100 { height: 100%; }
+  .lg-height-auto  { height: auto;  }
+
+  .lg-height-25    { height: 25%;   }
+  .lg-height-50    { height: 50%;   }
+  .lg-height-75    { height: 75%;   }
+  .lg-height-100   { height: 100%;  }
 
   .lg-height-25vh  { height: 25vh;  }
   .lg-height-50vh  { height: 50vh;  }
@@ -3175,10 +3185,12 @@ strong,
 }
 
 @media (min-width: 91em) {
-  .xl-height-25  { height: 25%;  }
-  .xl-height-50  { height: 50%;  }
-  .xl-height-75  { height: 75%;  }
-  .xl-height-100 { height: 100%; }
+  .xl-height-auto  { height: auto;  }
+
+  .xl-height-25    { height: 25%;   }
+  .xl-height-50    { height: 50%;   }
+  .xl-height-75    { height: 75%;   }
+  .xl-height-100   { height: 100%;  }
 
   .xl-height-25vh  { height: 25vh;  }
   .xl-height-50vh  { height: 50vh;  }
