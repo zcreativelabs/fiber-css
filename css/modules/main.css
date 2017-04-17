@@ -453,17 +453,17 @@ body {
 }
 
 ::-moz-selection {
-  background: undefined;
+  background: #E91E63;
   color: #FFFFFF;
 }
 
 ::selection {
-  background: undefined;
+  background: #E91E63;
   color: #FFFFFF;
 }
 
 ::-moz-selection {
-  background: undefined;
+  background: #E91E63;
   color: #FFFFFF;
 }
 

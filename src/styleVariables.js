@@ -68,7 +68,7 @@ const coreVars = {
   "color-primary-contrast":   colors["color-white"],
   "color-secondary":          colors["color-grey-200"],
   "color-secondary-contrast": colors["text-color-base"],
-  "text-select-bg":           colors["color-primary"],
+  "text-select-bg":           colors["color-pink-500"],
   "text-select-color":        colors["color-white"],
   "shadow-light":             0.08,
   "shadow-medium":            0.12,
