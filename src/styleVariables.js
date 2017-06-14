@@ -55,7 +55,7 @@ const coreVars = {
   "base-unit":                "1rem",
   "base-space":               "1rem",
   "base-line-height":         1.5,
-  "small-line-height":        1.2,
+  "small-line-height":        1.25,
   "font-size-0":              `${13 * one}rem`,
   "font-size-1":              `${16 * one}rem`,
   "font-size-2":              `${20 * one}rem`,

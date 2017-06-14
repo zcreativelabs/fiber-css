@@ -651,7 +651,7 @@ small,
 
 .lh-base    { line-height: 1.5;  }
 
-.lh-small   { line-height: 1.2; }
+.lh-small   { line-height: 1.25; }
 
 /*
  * Text align
@@ -713,7 +713,7 @@ strong,
 
   .xs-lh-1     { line-height: 1; }
   .xs-lh-base  { line-height: 1.5;  }
-  .xs-lh-small { line-height: 1.2; }
+  .xs-lh-small { line-height: 1.25; }
 
   .xs-strong   { font-weight: 700;   }
   .xs-regular  { font-weight: 400;   }
@@ -746,7 +746,7 @@ strong,
 
   .sm-lh-1     { line-height: 1; }
   .sm-lh-base  { line-height: 1.5;  }
-  .sm-lh-small { line-height: 1.2; }
+  .sm-lh-small { line-height: 1.25; }
 
   .sm-strong   { font-weight: 700;   }
   .sm-regular  { font-weight: 400;   }
@@ -780,7 +780,7 @@ strong,
 
   .md-lh-1     { line-height: 1; }
   .md-lh-base  { line-height: 1.5;  }
-  .md-lh-small { line-height: 1.2; }
+  .md-lh-small { line-height: 1.25; }
 
   .md-strong   { font-weight: 700;   }
   .md-regular  { font-weight: 400;   }
@@ -813,7 +813,7 @@ strong,
 
   .lg-lh-1     { line-height: 1; }
   .lg-lh-base  { line-height: 1.5;  }
-  .lg-lh-small { line-height: 1.2; }
+  .lg-lh-small { line-height: 1.25; }
 
   .lg-strong   { font-weight: 700;   }
   .lg-regular  { font-weight: 400;   }
@@ -846,7 +846,7 @@ strong,
 
   .xl-lh-1     { line-height: 1; }
   .xl-lh-base  { line-height: 1.5;  }
-  .xl-lh-small { line-height: 1.2; }
+  .xl-lh-small { line-height: 1.25; }
 
   .xl-strong   { font-weight: 700;   }
   .xl-regular  { font-weight: 400;   }
