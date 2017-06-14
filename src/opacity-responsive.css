@@ -1,0 +1,70 @@
+
+@media (--xs-viewport) {
+  .xs-opacity-100 { opacity: 1;    }
+  .xs-opacity-90  { opacity: .9;   }
+  .xs-opacity-80  { opacity: .8;   }
+  .xs-opacity-70  { opacity: .7;   }
+  .xs-opacity-60  { opacity: .6;   }
+  .xs-opacity-50  { opacity: .5;   }
+  .xs-opacity-40  { opacity: .4;   }
+  .xs-opacity-30  { opacity: .3;   }
+  .xs-opacity-20  { opacity: .2;   }
+  .xs-opacity-10  { opacity: .1;   }
+  .xs-opacity-0   { opacity: 0;    }
+}
+
+@media (--sm-viewport) {
+  .sm-opacity-100 { opacity: 1;    }
+  .sm-opacity-90  { opacity: .9;   }
+  .sm-opacity-80  { opacity: .8;   }
+  .sm-opacity-70  { opacity: .7;   }
+  .sm-opacity-60  { opacity: .6;   }
+  .sm-opacity-50  { opacity: .5;   }
+  .sm-opacity-40  { opacity: .4;   }
+  .sm-opacity-30  { opacity: .3;   }
+  .sm-opacity-20  { opacity: .2;   }
+  .sm-opacity-10  { opacity: .1;   }
+  .sm-opacity-0   { opacity: 0;    }
+}
+
+@media (--md-viewport) {
+  .md-opacity-100 { opacity: 1;    }
+  .md-opacity-90  { opacity: .9;   }
+  .md-opacity-80  { opacity: .8;   }
+  .md-opacity-70  { opacity: .7;   }
+  .md-opacity-60  { opacity: .6;   }
+  .md-opacity-50  { opacity: .5;   }
+  .md-opacity-40  { opacity: .4;   }
+  .md-opacity-30  { opacity: .3;   }
+  .md-opacity-20  { opacity: .2;   }
+  .md-opacity-10  { opacity: .1;   }
+  .md-opacity-0   { opacity: 0;    }
+}
+
+@media (--lg-viewport) {
+  .lg-opacity-100 { opacity: 1;    }
+  .lg-opacity-90  { opacity: .9;   }
+  .lg-opacity-80  { opacity: .8;   }
+  .lg-opacity-70  { opacity: .7;   }
+  .lg-opacity-60  { opacity: .6;   }
+  .lg-opacity-50  { opacity: .5;   }
+  .lg-opacity-40  { opacity: .4;   }
+  .lg-opacity-30  { opacity: .3;   }
+  .lg-opacity-20  { opacity: .2;   }
+  .lg-opacity-10  { opacity: .1;   }
+  .lg-opacity-0   { opacity: 0;    }
+}
+
+@media (--xl-viewport) {
+  .xl-opacity-100 { opacity: 1;    }
+  .xl-opacity-90  { opacity: .9;   }
+  .xl-opacity-80  { opacity: .8;   }
+  .xl-opacity-70  { opacity: .7;   }
+  .xl-opacity-60  { opacity: .6;   }
+  .xl-opacity-50  { opacity: .5;   }
+  .xl-opacity-40  { opacity: .4;   }
+  .xl-opacity-30  { opacity: .3;   }
+  .xl-opacity-20  { opacity: .2;   }
+  .xl-opacity-10  { opacity: .1;   }
+  .xl-opacity-0   { opacity: 0;    }
+}
