@@ -8,6 +8,10 @@
   .xs-flex-row     { flex-direction: row    }
   .xs-flex-wrap    { flex-wrap: wrap }
 
+  .xs-flex-column-reverse { flex-direction: column-reverse }
+  .xs-flex-row-reverse    { flex-direction: row-reverse    }
+  .xs-flex-wrap-reverse   { flex-wrap: wrap-reverse        }
+
   .xs-items-start    { align-items: flex-start }
   .xs-items-end      { align-items: flex-end   }
   .xs-items-center   { align-items: center     }
@@ -56,6 +60,10 @@
   .sm-flex-column  { flex-direction: column }
   .sm-flex-row     { flex-direction: row    }
   .sm-flex-wrap    { flex-wrap: wrap }
+
+  .sm-flex-column-reverse { flex-direction: column-reverse }
+  .sm-flex-row-reverse    { flex-direction: row-reverse    }
+  .sm-flex-wrap-reverse   { flex-wrap: wrap-reverse        }
 
   .sm-items-start    { align-items: flex-start }
   .sm-items-end      { align-items: flex-end   }
@@ -106,6 +114,10 @@
   .md-flex-row     { flex-direction: row    }
   .md-flex-wrap    { flex-wrap: wrap }
 
+  .md-flex-column-reverse { flex-direction: column-reverse }
+  .md-flex-row-reverse    { flex-direction: row-reverse    }
+  .md-flex-wrap-reverse   { flex-wrap: wrap-reverse        }
+
   .md-items-start    { align-items: flex-start }
   .md-items-end      { align-items: flex-end   }
   .md-items-center   { align-items: center     }
@@ -154,6 +166,10 @@
   .lg-flex-column  { flex-direction: column }
   .lg-flex-row     { flex-direction: row    }
   .lg-flex-wrap    { flex-wrap: wrap }
+
+  .lg-flex-column-reverse { flex-direction: column-reverse }
+  .lg-flex-row-reverse    { flex-direction: row-reverse    }
+  .lg-flex-wrap-reverse   { flex-wrap: wrap-reverse        }
 
   .lg-items-start    { align-items: flex-start }
   .lg-items-end      { align-items: flex-end   }
@@ -204,6 +220,10 @@
   .xl-flex-column  { flex-direction: column }
   .xl-flex-row     { flex-direction: row    }
   .xl-flex-wrap    { flex-wrap: wrap }
+
+  .xl-flex-column-reverse { flex-direction: column-reverse }
+  .xl-flex-row-reverse    { flex-direction: row-reverse    }
+  .xl-flex-wrap-reverse   { flex-wrap: wrap-reverse        }
 
   .xl-items-start    { align-items: flex-start }
   .xl-items-end      { align-items: flex-end   }

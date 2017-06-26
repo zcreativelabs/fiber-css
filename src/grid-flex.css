@@ -3,9 +3,13 @@
   display: flex;
 }
 
-.flex-column  { flex-direction: column }
-.flex-row     { flex-direction: row    }
-.flex-wrap    { flex-wrap: wrap }
+.flex-column       { flex-direction: column }
+.flex-row          { flex-direction: row    }
+.flex-wrap         { flex-wrap: wrap        }
+
+.flex-column-reverse { flex-direction: column-reverse }
+.flex-row-reverse    { flex-direction: row-reverse    }
+.flex-wrap-reverse   { flex-wrap: wrap-reverse        }
 
 .items-start    { align-items: flex-start }
 .items-end      { align-items: flex-end   }
