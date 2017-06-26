@@ -1,5 +1,9 @@
 
 @media (--xs-viewport) {
+  .xs-mx-auto { margin-left: auto; margin-right: auto; }
+  .xs-ml-auto { margin-left: auto  }
+  .xs-mr-auto { margin-right: auto }
+
   .xs-m0  { margin:        0 }
   .xs-mt0 { margin-top:    calc(0 * var(--base-unit)) }
   .xs-mr0 { margin-right:  calc(0 * var(--base-unit)) }
@@ -73,6 +77,10 @@
 }
 
 @media (--sm-viewport) {
+  .sm-mx-auto { margin-left: auto; margin-right: auto; }
+  .sm-ml-auto { margin-left: auto  }
+  .sm-mr-auto { margin-right: auto }
+
   .sm-m0  { margin:        0 }
   .sm-mt0 { margin-top:    calc(0 * var(--base-unit)) }
   .sm-mr0 { margin-right:  calc(0 * var(--base-unit)) }
@@ -146,6 +154,10 @@
 }
 
 @media (--md-viewport) {
+  .md-mx-auto { margin-left: auto; margin-right: auto; }
+  .md-ml-auto { margin-left: auto  }
+  .md-mr-auto { margin-right: auto }
+
   .md-m0  { margin:        0 }
   .md-mt0 { margin-top:    calc(0 * var(--base-unit)) }
   .md-mr0 { margin-right:  calc(0 * var(--base-unit)) }
@@ -182,11 +194,11 @@
   .md-mb4 { margin-bottom: calc(4 * var(--base-unit)) }
   .md-ml4 { margin-left:   calc(4 * var(--base-unit)) }
 
-  .xs-m5  { margin:        calc(5 * var(--base-unit)) }
-  .xs-mt5 { margin-top:    calc(5 * var(--base-unit)) }
-  .xs-mr5 { margin-right:  calc(5 * var(--base-unit)) }
-  .xs-mb5 { margin-bottom: calc(5 * var(--base-unit)) }
-  .xs-ml5 { margin-left:   calc(5 * var(--base-unit)) }
+  .md-m5  { margin:        calc(5 * var(--base-unit)) }
+  .md-mt5 { margin-top:    calc(5 * var(--base-unit)) }
+  .md-mr5 { margin-right:  calc(5 * var(--base-unit)) }
+  .md-mb5 { margin-bottom: calc(5 * var(--base-unit)) }
+  .md-ml5 { margin-left:   calc(5 * var(--base-unit)) }
 
   .md-m6  { margin:        calc(6 * var(--base-unit)) }
   .md-mt6 { margin-top:    calc(6 * var(--base-unit)) }
@@ -219,6 +231,10 @@
 }
 
 @media (--lg-viewport) {
+  .lg-mx-auto { margin-left: auto; margin-right: auto; }
+  .lg-ml-auto { margin-left: auto  }
+  .lg-mr-auto { margin-right: auto }
+
   .lg-m0  { margin:        0 }
   .lg-mt0 { margin-top:    calc(0 * var(--base-unit)) }
   .lg-mr0 { margin-right:  calc(0 * var(--base-unit)) }
@@ -292,6 +308,10 @@
 }
 
 @media (--xl-viewport) {
+  .xl-mx-auto { margin-left: auto; margin-right: auto; }
+  .xl-ml-auto { margin-left: auto  }
+  .xl-mr-auto { margin-right: auto }
+
   .xl-m0  { margin:        0 }
   .xl-mt0 { margin-top:    calc(0 * var(--base-unit)) }
   .xl-mr0 { margin-right:  calc(0 * var(--base-unit)) }
