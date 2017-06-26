@@ -2665,7 +2665,9 @@ strong,
 
 .bg-secondary   { background: #EEEEEE; color: #212121; }
 
-.bg-white       { background: #FFFFFF    }
+.bg-white       { background: #FFFFFF }
+
+.bg-transparent { background: transparent        }
 
 .bg-red         { background: #F44336         }
 
@@ -2714,6 +2716,8 @@ strong,
 .bg-grey-700  { background: #616161 }
 
 .bg-grey-800  { background: #424242 }
+
+.bg-grey-900  { background: #212121 }
 
 /*
  * text colors
@@ -2777,6 +2781,8 @@ strong,
 .color-grey-700  { color: #616161 }
 
 .color-grey-800  { color: #424242 }
+
+.color-grey-900  { color: #212121 }
 
 .shadow-0 {
   box-shadow: none;
