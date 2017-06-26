@@ -16,6 +16,11 @@
 
   .xs-translateY-n50 { -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
   .xs-translateX-n50 { -webkit-transform: translateX(-50%); transform: translateX(-50%);  }
+
+  .xs-max-width-none  { max-width: none;  }
+  .xs-max-height-none { max-height: none; }
+  .xs-max-width-100   { max-width: 100%;  }
+  .xs-max-height-100  { max-height: 100%; }
 }
 
 @media (min-width: 48em) {
@@ -35,6 +40,11 @@
 
   .sm-translateY-n50 { -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
   .sm-translateX-n50 { -webkit-transform: translateX(-50%); transform: translateX(-50%);  }
+
+  .sm-max-width-none  { max-width: none;  }
+  .sm-max-height-none { max-height: none; }
+  .sm-max-width-100   { max-width: 100%;  }
+  .sm-max-height-100  { max-height: 100%; }
 }
 
 @media (min-width: 62em) {
@@ -54,6 +64,11 @@
 
   .md-translateY-n50 { -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
   .md-translateX-n50 { -webkit-transform: translateX(-50%); transform: translateX(-50%);  }
+
+  .md-max-width-none  { max-width: none;  }
+  .md-max-height-none { max-height: none; }
+  .md-max-width-100   { max-width: 100%;  }
+  .md-max-height-100  { max-height: 100%; }
 }
 
 @media (min-width: 75em) {
@@ -73,6 +88,11 @@
 
   .lg-translateY-n50 { -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
   .lg-translateX-n50 { -webkit-transform: translateX(-50%); transform: translateX(-50%);  }
+
+  .lg-max-width-none  { max-width: none;  }
+  .lg-max-height-none { max-height: none; }
+  .lg-max-width-100   { max-width: 100%;  }
+  .lg-max-height-100  { max-height: 100%; }
 }
 
 @media (min-width: 91em) {
@@ -92,4 +112,9 @@
 
   .xl-translateY-n50 { -webkit-transform: translateY(-50%); transform: translateY(-50%);  }
   .xl-translateX-n50 { -webkit-transform: translateX(-50%); transform: translateX(-50%);  }
+
+  .xl-max-width-none  { max-width: none;  }
+  .xl-max-height-none { max-height: none; }
+  .xl-max-width-100   { max-width: 100%;  }
+  .xl-max-height-100  { max-height: 100%; }
 }
