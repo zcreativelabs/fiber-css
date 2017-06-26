@@ -7,6 +7,9 @@
   .xs-text-4   { font-size: var(--font-size-4); }
   .xs-text-5   { font-size: var(--font-size-5); }
   .xs-text-6   { font-size: var(--font-size-6); }
+  .xs-text-7   { font-size: var(--font-size-7); }
+  .xs-text-8   { font-size: var(--font-size-8); }
+  .xs-text-9   { font-size: var(--font-size-9); }
 
   .xs-lh-1     { line-height: 1; }
   .xs-lh-base  { line-height: var(--base-line-height);  }
@@ -40,6 +43,9 @@
   .sm-text-4   { font-size: var(--font-size-4); }
   .sm-text-5   { font-size: var(--font-size-5); }
   .sm-text-6   { font-size: var(--font-size-6); }
+  .sm-text-7   { font-size: var(--font-size-7); }
+  .sm-text-8   { font-size: var(--font-size-8); }
+  .sm-text-9   { font-size: var(--font-size-9); }
 
   .sm-lh-1     { line-height: 1; }
   .sm-lh-base  { line-height: var(--base-line-height);  }
@@ -73,6 +79,9 @@
   .md-text-4   { font-size: var(--font-size-4); }
   .md-text-5   { font-size: var(--font-size-5); }
   .md-text-6   { font-size: var(--font-size-6); }
+  .md-text-7   { font-size: var(--font-size-7); }
+  .md-text-8   { font-size: var(--font-size-8); }
+  .md-text-9   { font-size: var(--font-size-9); }
 
   .md-lh-1     { line-height: 1; }
   .md-lh-base  { line-height: var(--base-line-height);  }
@@ -106,6 +115,9 @@
   .lg-text-4   { font-size: var(--font-size-4); }
   .lg-text-5   { font-size: var(--font-size-5); }
   .lg-text-6   { font-size: var(--font-size-6); }
+  .lg-text-7   { font-size: var(--font-size-7); }
+  .lg-text-8   { font-size: var(--font-size-8); }
+  .lg-text-9   { font-size: var(--font-size-9); }
 
   .lg-lh-1     { line-height: 1; }
   .lg-lh-base  { line-height: var(--base-line-height);  }
@@ -139,6 +151,9 @@
   .xl-text-4   { font-size: var(--font-size-4); }
   .xl-text-5   { font-size: var(--font-size-5); }
   .xl-text-6   { font-size: var(--font-size-6); }
+  .xl-text-7   { font-size: var(--font-size-7); }
+  .xl-text-8   { font-size: var(--font-size-8); }
+  .xl-text-9   { font-size: var(--font-size-9); }
 
   .xl-lh-1     { line-height: 1; }
   .xl-lh-base  { line-height: var(--base-line-height);  }
