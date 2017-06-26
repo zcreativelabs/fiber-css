@@ -1,4 +1,8 @@
 
+.shadow-0 {
+  box-shadow: none;
+}
+
 .shadow-1 {
   box-shadow: 0 calc(2 * var(--one)) calc(4 * var(--one)) 0 rgba(0, 0, 0, var(--shadow-dark));
 }

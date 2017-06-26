@@ -26,7 +26,9 @@
 
 @import 'borders.css';
 @import 'colors.css';
+
 @import 'shadows.css';
+@import 'shadows-responsive.css';
 
 @import 'position.css';
 @import 'position-responsive.css';
