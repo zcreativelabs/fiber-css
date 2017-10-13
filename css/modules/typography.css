@@ -1,17 +1,8 @@
 
-h1,h2,h3,h4,h5,h6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+h1,h2,h3,h4,h5,h6,p {
+  margin-top:    0;
+  margin-bottom: 0;
 }
-
-p {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-p:first-child { margin-top: 0;    }
-
-p:last-child  { margin-bottom: 0; }
 
 /*
  * Font sizes
@@ -19,25 +10,25 @@ p:last-child  { margin-bottom: 0; }
  */
 
 small,
-.text-0   { font-size: 0.8125rem; }
+.text-0   { font-size:    0.8125rem; }
 
-.text-1   { font-size: 1rem; }
+.text-1   { font-size:    1rem; }
 
-.text-2   { font-size: 1.25rem; }
+.text-2   { font-size:    1.25rem; }
 
-.text-3   { font-size: 1.5rem; }
+.text-3   { font-size:    1.5rem; }
 
-.text-4   { font-size: 2rem; }
+.text-4   { font-size:    2rem; }
 
-.text-5   { font-size: 2.75rem; }
+.text-5   { font-size:    2.75rem; }
 
-.text-6   { font-size: 3.5rem; }
+.text-6   { font-size:    3.5rem; }
 
-.text-7   { font-size: 4rem; }
+.text-7   { font-size:    4rem; }
 
-.text-8   { font-size: 4.5rem; }
+.text-8   { font-size:    4.5rem; }
 
-.text-9   { font-size: 6rem; }
+.text-9   { font-size:    6rem; }
 
 /*
  * Line height
@@ -47,9 +38,9 @@ small,
 
 .lh-1       { line-height: 1; }
 
-.lh-base    { line-height: 1.5;  }
+.lh-base    { line-height:    1.5;  }
 
-.lh-small   { line-height: 1.25; }
+.lh-small   { line-height:    1.25; }
 
 /*
  * Text align
