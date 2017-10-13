@@ -1,0 +1,10 @@
+
+.border-radius-0    { border-radius: 0 }
+.border-radius-1    { border-radius: calc(1 * var(--one)) }
+.border-radius-2    { border-radius: calc(2 * var(--one)) }
+.border-radius-3    { border-radius: calc(3 * var(--one)) }
+.border-radius-4    { border-radius: calc(4 * var(--one)) }
+.border-radius-5    { border-radius: calc(5 * var(--one)) }
+.border-radius-6    { border-radius: calc(6 * var(--one)) }
+.border-radius-100  { border-radius: 100%   }
+.border-radius-pill { border-radius: 9999px }
