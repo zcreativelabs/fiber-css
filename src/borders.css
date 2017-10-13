@@ -50,3 +50,10 @@
 .border-grey-600  { border-color: var(--color-grey-600) }
 .border-grey-700  { border-color: var(--color-grey-700) }
 .border-grey-800  { border-color: var(--color-grey-800) }
+
+.border-1 { border-width: calc(1 * var(--one)) }
+.border-2 { border-width: calc(2 * var(--one)) }
+.border-3 { border-width: calc(3 * var(--one)) }
+.border-4 { border-width: calc(4 * var(--one)) }
+.border-5 { border-width: calc(5 * var(--one)) }
+.border-6 { border-width: calc(6 * var(--one)) }
